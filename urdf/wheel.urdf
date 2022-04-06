@@ -1,0 +1,349 @@
+<?xml version="1.0"?>
+<!-- created with Phobos 1.0.1 "Capricious Choutengan" -->
+  <robot name="wheel">
+
+    <link name="base_link">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.5"/>
+        <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+      </inertial>
+      <visual name="visual_0_base_link">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="../meshes/stl/Mecanummain.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </visual>
+      <collision name="collision_0_base_link">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <cylinder radius="0.1" length="0.08"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="mcn1">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.03"/>
+        <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+      </inertial>
+      <visual name="visual_0_mcn1">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="../meshes/stl/Mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </visual>
+      <collision name="collision_0_mcn1">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="../meshes/stl/Mecanumroller.001.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="mcn10">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.03"/>
+        <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+      </inertial>
+      <visual name="visual_0_mcn10">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="../meshes/stl/Mecanumroller.018.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </visual>
+      <collision name="collision_0_mcn10">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="../meshes/stl/Mecanumroller.019.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="mcn11">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.03"/>
+        <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+      </inertial>
+      <visual name="visual_0_mcn11">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="../meshes/stl/Mecanumroller.020.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </visual>
+      <collision name="collision_0_mcn11">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="../meshes/stl/Mecanumroller.021.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="mcn12">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.03"/>
+        <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+      </inertial>
+      <visual name="visual_0_mcn12">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="../meshes/stl/Mecanumroller.022.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </visual>
+      <collision name="collision_0_mcn12">
+        <origin xyz="0.00691 -0.11353 0.02688" rpy="-1.08017 -2.34619 -0.02178"/>
+        <geometry>
+          <mesh filename="../meshes/stl/Mecanumroller.023.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="mcn2">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.03"/>
+        <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+      </inertial>
+      <visual name="visual_0_mcn2">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="../meshes/stl/Mecanumroller.002.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </visual>
+      <collision name="collision_0_mcn2">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="../meshes/stl/Mecanumroller.003.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="mcn3">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.03"/>
+        <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+      </inertial>
+      <visual name="visual_0_mcn3">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="../meshes/stl/Mecanumroller.004.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </visual>
+      <collision name="collision_0_mcn3">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="../meshes/stl/Mecanumroller.005.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="mcn4">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.03"/>
+        <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+      </inertial>
+      <visual name="visual_0_mcn4">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="../meshes/stl/Mecanumroller.006.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </visual>
+      <collision name="collision_0_mcn4">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="../meshes/stl/Mecanumroller.007.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="mcn5">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.03"/>
+        <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+      </inertial>
+      <visual name="visual_0_mcn5">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="../meshes/stl/Mecanumroller.008.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </visual>
+      <collision name="collision_0_mcn5">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="../meshes/stl/Mecanumroller.009.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="mcn6">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.03"/>
+        <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+      </inertial>
+      <visual name="visual_0_mcn6">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="../meshes/stl/Mecanumroller.010.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </visual>
+      <collision name="collision_0_mcn6">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="../meshes/stl/Mecanumroller.011.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="mcn7">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.03"/>
+        <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+      </inertial>
+      <visual name="visual_0_mcn7">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="../meshes/stl/Mecanumroller.012.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </visual>
+      <collision name="collision_0_mcn7">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="../meshes/stl/Mecanumroller.013.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="mcn8">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.03"/>
+        <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+      </inertial>
+      <visual name="visual_0_mcn8">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="../meshes/stl/Mecanumroller.014.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </visual>
+      <collision name="collision_0_mcn8">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="../meshes/stl/Mecanumroller.015.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="mcn9">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.03"/>
+        <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+      </inertial>
+      <visual name="visual_0_mcn9">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="../meshes/stl/Mecanumroller.016.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </visual>
+      <collision name="collision_0_mcn9">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="../meshes/stl/Mecanumroller.017.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="joint1" type="continuous">
+      <origin xyz="0 1.3 0" rpy="0 0 0"/>
+      <parent link="base_link"/>
+      <child link="mcn1"/>
+      <axis xyz="0 1.0 0"/>
+    </joint>
+
+    <joint name="joint10" type="continuous">
+      <origin xyz="0 0.4 0" rpy="0 0 0"/>
+      <parent link="base_link"/>
+      <child link="mcn10"/>
+      <axis xyz="0 1.0 0"/>
+    </joint>
+
+    <joint name="joint11" type="continuous">
+      <origin xyz="0 0.3 0" rpy="0 0 0"/>
+      <parent link="base_link"/>
+      <child link="mcn11"/>
+      <axis xyz="0 1.0 0"/>
+    </joint>
+
+    <joint name="joint12" type="continuous">
+      <origin xyz="0 0.2 0" rpy="0 0 0"/>
+      <parent link="base_link"/>
+      <child link="mcn12"/>
+      <axis xyz="0 1.0 0"/>
+    </joint>
+
+    <joint name="joint2" type="continuous">
+      <origin xyz="0 1.2 0" rpy="0 0 0"/>
+      <parent link="base_link"/>
+      <child link="mcn2"/>
+      <axis xyz="0 1.0 0"/>
+    </joint>
+
+    <joint name="joint3" type="continuous">
+      <origin xyz="0 1.1 0" rpy="0 0 0"/>
+      <parent link="base_link"/>
+      <child link="mcn3"/>
+      <axis xyz="0 1.0 0"/>
+    </joint>
+
+    <joint name="joint4" type="continuous">
+      <origin xyz="0 1.0 0" rpy="0 0 0"/>
+      <parent link="base_link"/>
+      <child link="mcn4"/>
+      <axis xyz="0 1.0 0"/>
+    </joint>
+
+    <joint name="joint5" type="continuous">
+      <origin xyz="0 0.9 0" rpy="0 0 0"/>
+      <parent link="base_link"/>
+      <child link="mcn5"/>
+      <axis xyz="0 1.0 0"/>
+    </joint>
+
+    <joint name="joint6" type="continuous">
+      <origin xyz="0 0.8 0" rpy="0 0 0"/>
+      <parent link="base_link"/>
+      <child link="mcn6"/>
+      <axis xyz="0 1.0 0"/>
+    </joint>
+
+    <joint name="joint7" type="continuous">
+      <origin xyz="0 0.7 0" rpy="0 0 0"/>
+      <parent link="base_link"/>
+      <child link="mcn7"/>
+      <axis xyz="0 1.0 0"/>
+    </joint>
+
+    <joint name="joint8" type="continuous">
+      <origin xyz="0 0.6 0" rpy="0 0 0"/>
+      <parent link="base_link"/>
+      <child link="mcn8"/>
+      <axis xyz="0 1.0 0"/>
+    </joint>
+
+    <joint name="joint9" type="continuous">
+      <origin xyz="0 0.5 0" rpy="0 0 0"/>
+      <parent link="base_link"/>
+      <child link="mcn9"/>
+      <axis xyz="0 1.0 0"/>
+    </joint>
+
+  </robot>

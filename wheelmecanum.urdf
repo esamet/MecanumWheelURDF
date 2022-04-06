@@ -32,8 +32,10 @@
         <origin xyz="0 0 0" rpy="0 0 0"/>
     </visual>
     <collision>
+    <geometry>
         <mesh scale="0.002 0.002 0.002" filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl"/>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </geometry>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
     </collision>
     <inertial>
         <mass value="0.03"/>
@@ -55,8 +57,10 @@
         <origin xyz="0 0 0" rpy="0 0 0"/>
     </visual>
     <collision>
+    <geometry>
         <mesh scale="0.002 0.002 0.002" filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl"/>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </geometry>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
     </collision>
     <inertial>
         <mass value="0.03"/>
@@ -78,8 +82,10 @@
         <origin xyz="0 0 0" rpy="0 0 0"/>
     </visual>
     <collision>
+    <geometry>
         <mesh scale="0.002 0.002 0.002" filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl"/>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </geometry>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
     </collision>
     <inertial>
         <mass value="0.03"/>
@@ -101,8 +107,10 @@
         <origin xyz="0 0 0" rpy="0 0 0"/>
     </visual>
     <collision>
+    <geometry>
         <mesh scale="0.002 0.002 0.002" filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl"/>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </geometry>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
     </collision>
     <inertial>
         <mass value="0.03"/>
@@ -124,8 +132,10 @@
         <origin xyz="0 0 0" rpy="0 0 0"/>
     </visual>
     <collision>
+    <geometry>
         <mesh scale="0.002 0.002 0.002" filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl"/>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </geometry>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
     </collision>
     <inertial>
         <mass value="0.03"/>
@@ -147,8 +157,10 @@
         <origin xyz="0 0 0" rpy="0 0 0"/>
     </visual>
     <collision>
+    <geometry>
         <mesh scale="0.002 0.002 0.002" filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl"/>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </geometry>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
     </collision>
     <inertial>
         <mass value="0.03"/>
@@ -170,8 +182,10 @@
         <origin xyz="0 0 0" rpy="0 0 0"/>
     </visual>
     <collision>
+    <geometry>
         <mesh scale="0.002 0.002 0.002" filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl"/>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </geometry>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
     </collision>
     <inertial>
         <mass value="0.03"/>
@@ -193,8 +207,10 @@
         <origin xyz="0 0 0" rpy="0 0 0"/>
     </visual>
     <collision>
+    <geometry>
         <mesh scale="0.002 0.002 0.002" filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl"/>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </geometry>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
     </collision>
     <inertial>
         <mass value="0.03"/>
@@ -216,8 +232,10 @@
         <origin xyz="0 0 0" rpy="0 0 0"/>
     </visual>
     <collision>
+    <geometry>
         <mesh scale="0.002 0.002 0.002" filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl"/>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </geometry>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
     </collision>
     <inertial>
         <mass value="0.03"/>
@@ -240,9 +258,10 @@
         <origin xyz="0 0 0" rpy="0 0 0"/>
     </visual>
     <collision>
+    <geometry>
         <mesh scale="0.002 0.002 0.002" filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl"/>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
-
+    </geometry>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
     </collision>
     <inertial>
         <mass value="0.03"/>
@@ -265,8 +284,10 @@
         <origin xyz="0 0 0" rpy="0 0 0"/>
     </visual>
     <collision>
+    <geometry>
         <mesh scale="0.002 0.002 0.002" filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl"/>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </geometry>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
     </collision>
     <inertial>
         <mass value="0.03"/>
@@ -289,9 +310,10 @@
         <origin xyz="0 0 0" rpy="0 0 0"/>
     </visual>
     <collision>
+    <geometry>
         <mesh scale="0.002 0.002 0.002" filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl"/>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
-
+    </geometry>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
     </collision>
     <inertial>
         <mass value="0.03"/>
