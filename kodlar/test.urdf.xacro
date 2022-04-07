@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<robot name="roboke" xmlns:xacro="http://www.ros.org/wiki/xacro">
+<xacro:include filename="/home/samet/Desktop/robomaster-stl-files/wheels/kodlar/robomas.urdf.xacro"/>
+
+<xacro:leko/>
+
+
+
+
+</robot>
