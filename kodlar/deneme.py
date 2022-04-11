@@ -18,7 +18,8 @@ sim_params.substeps = 2
 sim_params.up_axis = gymapi.UP_AXIS_Z
 sim_params.gravity = gymapi.Vec3(0.0, 0.0, -20.8)
 # set PhysX-specific parameters
-sim_params.physx.use_gpu = True
+sim_params.physx.use_gpu = True 
+sim_params.use_gpu_pipeline = True
 sim_params.physx.solver_type = 1
 sim_params.physx.num_position_iterations = 6
 sim_params.physx.num_velocity_iterations = 1
@@ -49,8 +50,8 @@ gym.add_ground(sim, plane_params)
 
 
 
-asset_root = "/home/samet/Desktop/robomaster-stl-files/wheels/kodlar"
-asset_file = "test.urdf.xacro"
+asset_root = "/home/samet/Desktop/robomaster-stl-files/wheels/kodlar/"
+asset_file = "roboke.urdf"
 
 
 asset_options = gymapi.AssetOptions()

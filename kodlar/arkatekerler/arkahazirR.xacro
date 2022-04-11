@@ -1,0 +1,351 @@
+<?xml version="1.0"?>
+<!-- created with Phobos 1.0.1 "Capricious Choutengan" -->
+ <robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
+<xacro:macro name="leko4">
+
+    <link name="base_link4">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.5"/>
+        <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumcenter2.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <cylinder radius="0.1" length="0.08"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="mcnNNArka1">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.03"/>
+        <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="mcnNNArka10">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.03"/>
+        <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="mcnNNArka11">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.03"/>
+        <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="mcnNNArka12">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.03"/>
+        <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="mcnNNArka2">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.03"/>
+        <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="mcnNNArka3">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.03"/>
+        <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="mcnNNArka4">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.03"/>
+        <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="mcnNNArka5">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.03"/>
+        <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="mcnNNArka6">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.03"/>
+        <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="mcnNNArka7">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.03"/>
+        <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="mcnNNArka8">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.03"/>
+        <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="mcnNNArka9">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.03"/>
+        <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="/home/samet/Desktop/robomaster-stl-files/wheels/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="jjjjoint1" type="continuous">
+      <origin xyz="0.08098 -0.03389 0.02632" rpy="1.69616 -0.78865 -2.09076"/>
+      <parent link="base_link4"/>
+      <child link="mcnNNArka1"/>
+      <axis xyz="1.0 0 0"/>
+    </joint>
+
+    <joint name="jjjjoint10" type="continuous">
+      <origin xyz="-0.03447 -0.08054 0.02726" rpy="0.16809 -2.34167 -0.52068"/>
+      <parent link="base_link4"/>
+      <child link="mcnNNArka10"/>
+      <axis xyz="1.0 0 0"/>
+    </joint>
+
+    <joint name="jjjjoint11" type="continuous">
+      <origin xyz="0.01035 -0.08714 0.02744" rpy="0.20837 -2.34561 -0.00054"/>
+      <parent link="base_link4"/>
+      <child link="mcnNNArka11"/>
+      <axis xyz="1.0 0 0"/>
+    </joint>
+
+    <joint name="jjjjoint12" type="continuous">
+      <origin xyz="0.05215 -0.0703 0.02768" rpy="1.39158 -2.3543 0.52842"/>
+      <parent link="base_link4"/>
+      <child link="mcnNNArka12"/>
+      <axis xyz="1.0 0 0"/>
+    </joint>
+
+    <joint name="jjjjoint2" type="continuous">
+      <origin xyz="0.08702 0.01083 0.02674" rpy="0.15693 -2.35442 1.57268"/>
+      <parent link="base_link4"/>
+      <child link="mcnNNArka2"/>
+      <axis xyz="1.0 0 0"/>
+    </joint>
+
+    <joint name="jjjjoint3" type="continuous">
+      <origin xyz="0.07027 0.0522 0.02725" rpy="1.99732 -0.78629 -1.0356"/>
+      <parent link="base_link4"/>
+      <child link="mcnNNArka3"/>
+      <axis xyz="1.0 0 0"/>
+    </joint>
+
+    <joint name="jjjjoint4" type="continuous">
+      <origin xyz="0.03408 0.08081 0.02656" rpy="-0.01116 -0.78641 -0.52158"/>
+      <parent link="base_link4"/>
+      <child link="mcnNNArka4"/>
+      <axis xyz="1.0 0 0"/>
+    </joint>
+
+    <joint name="jjjjoint5" type="continuous">
+      <origin xyz="-0.00989 0.08688 0.02757" rpy="0.22604 -0.78465 0.00764"/>
+      <parent link="base_link4"/>
+      <child link="mcnNNArka5"/>
+      <axis xyz="1.0 0 0"/>
+    </joint>
+
+    <joint name="jjjjoint6" type="continuous">
+      <origin xyz="-0.07998 0.03542 0.02784" rpy="-0.92993 -0.78212 1.05974"/>
+      <parent link="base_link4"/>
+      <child link="mcnNNArka6"/>
+      <axis xyz="1.0 0 0"/>
+    </joint>
+
+    <joint name="jjjjoint7" type="continuous">
+      <origin xyz="-0.05165 0.0708 0.02816" rpy="-1.87163 -0.79217 0.5363"/>
+      <parent link="base_link4"/>
+      <child link="mcnNNArka7"/>
+      <axis xyz="1.0 0 0"/>
+    </joint>
+
+    <joint name="jjjjoint8" type="continuous">
+      <origin xyz="-0.08668 -0.00986 0.02799" rpy="-1.50807 -0.79738 1.59404"/>
+      <parent link="base_link4"/>
+      <child link="mcnNNArka8"/>
+      <axis xyz="1.0 0 0"/>
+    </joint>
+
+    <joint name="jjjjoint9" type="continuous">
+      <origin xyz="-0.07027 -0.0525 0.02729" rpy="0.95433 -2.33443 -1.04334"/>
+      <parent link="base_link4"/>
+      <child link="mcnNNArka9"/>
+      <axis xyz="1.0 0 0"/>
+    </joint>
+</xacro:macro>
+
+  </robot>

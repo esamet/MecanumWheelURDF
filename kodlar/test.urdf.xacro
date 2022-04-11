@@ -1,9 +1,41 @@
 <?xml version="1.0"?>
 <robot name="roboke" xmlns:xacro="http://www.ros.org/wiki/xacro">
-<xacro:include filename="/home/samet/Desktop/robomaster-stl-files/wheels/kodlar/robomas.urdf.xacro"/>
+<xacro:include filename="/home/samet/Desktop/robomaster-stl-files/wheels/kodlar/arkatekerler/omnihazirL.xacro"/>
+<xacro:include filename="/home/samet/Desktop/robomaster-stl-files/wheels/kodlar/arkatekerler/omnihazirR.xacro"/>
+<xacro:include filename="/home/samet/Desktop/robomaster-stl-files/wheels/kodlar/arkatekerler/arkahazirL.xacro"/>
+<xacro:include filename="/home/samet/Desktop/robomaster-stl-files/wheels/kodlar/arkatekerler/arkahazirR.xacro"/>
+<xacro:include filename="/home/samet/Desktop/robomaster-stl-files/wheels/kodlar/chasishazir.xacro"/>
 
 <xacro:leko/>
+<xacro:leko2/>
+<xacro:leko3/>
+<xacro:leko4/>
 
+<joint name="joint_name2" type="continuous">
+    <parent link="basee_link"/>
+    <child link="base_link"/>
+    <axis xyz="0 0 1"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+</joint>
+<joint name="joint_name3" type="continuous">
+    <parent link="basee_link"/>
+    <child link="base_link2"/>
+    <axis xyz="0 0 1"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+</joint>
+<joint name="joint_name4" type="continuous">
+    <parent link="basee_link"/>
+    <child link="base_link3"/>
+    <axis xyz="0 0 1"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+</joint>
+<joint name="joint_name5" type="continuous">
+    <parent link="basee_link"/>
+    <child link="base_link4"/>
+    <axis xyz="0 0 1"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+</joint>
+<xacro:chasis/>
 
 
 

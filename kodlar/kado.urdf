@@ -13,7 +13,7 @@
     <visual name="visual_0_base_link">
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/samet/Desktop/isaac_robomaster/meshes/stl/mecanummain.stl" scale="0.002 0.002 0.002"/>
+        <mesh filename="/home/samet/Desktop/isaac_robomaster/meshes/stl/mecanummain.stl" scale="0.002 0.002 0.002"/>
       </geometry>
     </visual>
     <collision name="collision_0_base_link">
@@ -32,13 +32,13 @@
     <visual name="visual_0_mcn1">
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        <mesh filename="/home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
       </geometry>
     </visual>
     <collision name="collision_0_mcn1">
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        <mesh filename="/home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
       </geometry>
     </collision>
   </link>
@@ -51,13 +51,13 @@
     <visual name="visual_0_mcn10">
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        <mesh filename="/home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
       </geometry>
     </visual>
     <collision name="collision_0_mcn10">
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        <mesh filename="/home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
       </geometry>
     </collision>
   </link>
@@ -70,13 +70,13 @@
     <visual name="visual_0_mcn11">
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        <mesh filename="/home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
       </geometry>
     </visual>
     <collision name="collision_0_mcn11">
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        <mesh filename="/home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
       </geometry>
     </collision>
   </link>
@@ -89,13 +89,13 @@
     <visual name="visual_0_mcn12">
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        <mesh filename="/home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
       </geometry>
     </visual>
     <collision name="collision_0_mcn12">
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        <mesh filename="/home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
       </geometry>
     </collision>
   </link>
@@ -108,13 +108,13 @@
     <visual name="visual_0_mcn2">
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        <mesh filename="/home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
       </geometry>
     </visual>
     <collision name="collision_0_mcn2">
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        <mesh filename="/home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
       </geometry>
     </collision>
   </link>
@@ -127,13 +127,13 @@
     <visual name="visual_0_mcn3">
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        <mesh filename="/home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
       </geometry>
     </visual>
     <collision name="collision_0_mcn3">
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        <mesh filename="/home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
       </geometry>
     </collision>
   </link>
@@ -146,13 +146,13 @@
     <visual name="visual_0_mcn4">
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        <mesh filename="/home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
       </geometry>
     </visual>
     <collision name="collision_0_mcn4">
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        <mesh filename="/home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
       </geometry>
     </collision>
   </link>
@@ -165,13 +165,13 @@
     <visual name="visual_0_mcn5">
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        <mesh filename="/home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
       </geometry>
     </visual>
     <collision name="collision_0_mcn5">
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        <mesh filename="/home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
       </geometry>
     </collision>
   </link>
@@ -184,13 +184,13 @@
     <visual name="visual_0_mcn6">
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        <mesh filename="/home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
       </geometry>
     </visual>
     <collision name="collision_0_mcn6">
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        <mesh filename="/home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
       </geometry>
     </collision>
   </link>
@@ -203,13 +203,13 @@
     <visual name="visual_0_mcn7">
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        <mesh filename="/home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
       </geometry>
     </visual>
     <collision name="collision_0_mcn7">
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        <mesh filename="/home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
       </geometry>
     </collision>
   </link>
@@ -222,13 +222,13 @@
     <visual name="visual_0_mcn8">
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        <mesh filename="/home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
       </geometry>
     </visual>
     <collision name="collision_0_mcn8">
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        <mesh filename="/home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
       </geometry>
     </collision>
   </link>
@@ -241,13 +241,13 @@
     <visual name="visual_0_mcn9">
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        <mesh filename="/home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
       </geometry>
     </visual>
     <collision name="collision_0_mcn9">
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
+        <mesh filename="/home/samet/Desktop/isaac_robomaster/meshes/stl/mecanumroller.stl" scale="0.002 0.002 0.002"/>
       </geometry>
     </collision>
   </link>
